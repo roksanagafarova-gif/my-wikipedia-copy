@@ -1,0 +1,50 @@
+#title {
+    color: red;
+}
+
+.div[title="text"] {
+    color: rgb(20, 20, 20);
+}
+
+p {
+    color: rgb(13, 14, 14);
+    border: 15px green groove;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-right: 1000px;
+}
+
+.border {
+    padding-left: 0,10px;
+
+}
+
+.logo {
+    background-image: url(../image/Download.pngpepsi.png);
+    background-image: none;
+}
+
+h1 {
+    color: rgb(13, 14, 14);
+    .component {
+        color: var(--bs-gray-800);
+        background-color: var(--bs-gray-100);
+        border: 1px solid var(--bs-gray-200);
+        border-radius: .25rem;
+      }
+      
+      .component-header {
+        color: var(--bs-purple);
+      }
+}
+.body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+  }
+  
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+  }
